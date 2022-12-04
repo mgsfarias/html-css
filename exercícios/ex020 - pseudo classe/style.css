@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    width: 300px;
+    
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: yellow;
+}
+
+.especial {
+    background-color: rgb(234, 153, 153);
+}
+.especial::before {
+        content: '=> ';
+}
+
+.especial::after {
+    content: ' <='
+}
